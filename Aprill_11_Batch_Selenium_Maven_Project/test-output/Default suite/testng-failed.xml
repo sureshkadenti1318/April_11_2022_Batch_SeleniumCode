@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNg_Practice.TestNG_Assertions_Example">
+      <class name="TestNg_Practice.TestNG_DataProvider_Example">
         <methods>
-          <include name="closingbrowser"/>
-          <include name="browserOpen"/>
           <include name="tittle_test"/>
+          <include name="browserOpen"/>
+          <include name="closingbrowser"/>
         </methods>
-      </class> <!-- TestNg_Practice.TestNG_Assertions_Example -->
+      </class> <!-- TestNg_Practice.TestNG_DataProvider_Example -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
